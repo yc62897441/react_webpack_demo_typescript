@@ -4,7 +4,7 @@ const initState = {
     isLoading: false,
 }
 
-const controlReducer = (state = initState, action) => {
+const controlReducer = (state = initState, action: any) => {
     switch (action.type) {
         case actions.SWITCH_LOADING:
             return {
